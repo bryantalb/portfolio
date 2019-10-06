@@ -300,12 +300,30 @@ span {
     font-size: 3rem;
   }
 
+  .hero {
+    grid: 15vh 1fr 1fr 15vh / auto;
+  }
+
   .hero__desc {
     font-size: 1.1rem;
   }
 
+  .nav__link {
+    font-size: 0.9rem;
+    margin: 1.5em;
+  }
+
+  .work__left,
+  .contact__left {
+    grid: 15vh 1fr 15vh / auto;
+  }
+
   .work__gallery {
     grid: 1fr 1fr / 1fr;
+  }
+
+  .contact__right {
+    grid: 15vh 1fr 1fr 15vh / 20% 1fr 20%;
   }
 
   .contact__availability {
