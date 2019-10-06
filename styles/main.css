@@ -257,6 +257,7 @@ span {
   grid-area: A;
   font-size: 1.2rem;
   justify-self: center;
+  text-align: center;
   align-self: flex-end;
   margin-bottom: 1em;
 }
@@ -295,8 +296,24 @@ span {
 }
 
 @media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .hero__desc {
+    font-size: 1.1rem;
+  }
+
   .work__gallery {
     grid: 1fr 1fr / 1fr;
+  }
+
+  .contact__availability {
+    font-size: 0.9rem;
+  }
+
+  .contact__info {
+    font-size: 0.8rem;
   }
 }
 
